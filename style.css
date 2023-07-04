@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Quicksand&family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  /* color: #d2daff; */
+}
+
+body {
+  background: aliceblue;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto Slab", serif;
+}
+
+.section {
+  height: 500px;
+  width: 600px;
+}
+
+.col {
+  background-color: #000000;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.439);
+  padding: 5px;
+  border: 2px solid orangered;
+  margin: 5px;
+}
+
+/* .arrange{
+/* border: 1px solid black; */
+/* display: flex; */
+/* justify-content: space-between; */
+/* width: 200px; */
+/* } */ 
+
+.box {
+  display: inline-block;
+  padding: 0px 11px;
+}
+
+input {
+  /* 1px solid #d2daff */
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding: 3px;
+  font-family: "Roboto Slab", serif;
+  background-color: orangered;
+}
+
+button {
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  padding: 3px;
+  font-family: "Roboto Slab", serif;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+button:hover{
+  background-color: orangered;
+}
+ 
+ul{
+  list-style: none;
+  padding: 10px;
+  width: 210px;
+  color: #ffffff;
+}
+
+
+
+.div1{
+  border: 1px solid rgb(0, 0, 0);
+  position: relative;
+  left: 20px;
+}
